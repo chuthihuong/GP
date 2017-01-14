@@ -7,6 +7,9 @@ Genetic Programming"  by Thi Huong Chu et al.
 
 # This code includes:
 + GP: Standard Tournament Selection
+
 +TS-R: Statistics tournament selection with random
+
 +TS-S: Statistics test tournament selection with size
+
 +TS-P: Statistics tournament selection with probability
