@@ -1,7 +1,7 @@
-#Semantic Tournament Selection for Genetic Programming based on Statistical Analysis of Error
+#Semantic Tournament Selection for Genetic Programming based on Statistical Analysis of Error Vectors
 
 
-This code provides a Java implementation of statistics tournament selection methods as described in "Semantic Tournament Selection for Genetic Programming based on Statistical Analysis of Error"  by Thi Huong Chu et al.
+This code provides a Java implementation of statistics tournament selection methods as described in "Semantic Tournament Selection for Genetic Programming based on Statistical Analysis of Error Vectors"  by Thi Huong Chu et al.
 
 # Methods:
 + GP/GP: Standard Tournament Selection,
