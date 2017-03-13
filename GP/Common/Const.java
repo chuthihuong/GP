@@ -17,7 +17,8 @@ public interface Const {
 	public final double PCROSS = 0.9;
 	public final double PMUTATE = 0.1;
 	
-    public final int TOURSIZE=5;
+    public final int TOURSIZE=7;
+    public final double EPSILON=0.0;
     
     
     public final int MAX_KOZA=5;
@@ -28,10 +29,16 @@ public interface Const {
 	
 
 	public static final int NRUN=100;
+	
 	public static final int POPSIZE=500;
     public static final int NUMGEN=100;
     
-	
+    public static final int NumStaticTest=100;
+    public static final int NumTrial=20;
+    public final double thresholdDifferent=0.01;
+    
+    
+    
 	public static final double	INFPLUS		=  Math.exp(700);
 	public static final double	INFMINUS		= -Math.exp(700);
 	public static final double	HUGE_VAL		= Math.exp(700);
@@ -75,10 +82,7 @@ public interface Const {
 //	public static final int		NUMFITCASE	= 750;
 //	public static final int		NUMFITTEST	= 750;
 	
-//	public static final String PROBLEM = "ISTANBUL_STOCK_EXCHANGE";//11 300 300
-//	public static final int		NUMVAR	=7;
-//	public static final int		NUMFITCASE	= 270;
-//	public static final int		NUMFITTEST	= 266;
+
 	
 //	public static final String PROBLEM = "yacht_hydrodynamics";//11 300 300
 //	public static final int		NUMVAR	=6;
@@ -96,10 +100,10 @@ public interface Const {
 //	public static final int		NUMFITCASE	= 100;
 //	public static final int		NUMFITTEST	= 98;
 	
-//	public static final String PROBLEM = "slump_test_Compressive";//11 250 250
-//	public static final int		NUMVAR	=7;
-//	public static final int		NUMFITCASE	=50;
-//	public static final int		NUMFITTEST	=53;
+	public static final String PROBLEM = "slump_test_Compressive";//11 250 250
+	public static final int		NUMVAR	=7;
+	public static final int		NUMFITCASE	=50;
+	public static final int		NUMFITTEST	=53;
 	
 //	public static final String PROBLEM = "slump_test_FLOW";//11 250 250
 //	public static final int		NUMVAR	=7;
@@ -140,12 +144,16 @@ public interface Const {
 	
 	// korn 1,2,3,4,11,12,14,15
 	
-		public static final String PROBLEM = "korns-4";//11 300 300
-		public static final int		NUMVAR	=5;
-		public static final int		NUMFITCASE	= 100;
-		public static final int		NUMFITTEST	= 10;
+//		public static final String PROBLEM = "korns-4";//11 300 300
+//		public static final int		NUMVAR	=5;
+//		public static final int		NUMFITCASE	= 1000;
+//		public static final int		NUMFITTEST	= 1000;
 	
 	
+//	public static final String PROBLEM = "ISTANBUL_STOCK_EXCHANGE";//11 300 300
+//	public static final int		NUMVAR	=7;
+//	public static final int		NUMFITCASE	= 270;
+//	public static final int		NUMFITTEST	= 266;
 	
 //	public static final String PROBLEM = "concrete";//11 250 250
 //	public static final int		NUMVAR	=8;
