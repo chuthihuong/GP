@@ -9,6 +9,7 @@ Programming based on Statistical Analysis of Error"  by Thi Huong Chu et al.
 + GP/RDO: Crossover- random desired operator (RDO),
 + GP/TS-RDO:The method which combines TS-S with RDO.
 + GP/SiS:  Semantic in Selection (SiS)
++ GP/TS-S-Limit: Statistics tournament selection with size and limited number of fitcase.
 
 # Evolutionary Parameter Values:
 You can set evolutionary parameter values in file GP/Common/Const.java. Here are some basic parameters you can set in the file:
